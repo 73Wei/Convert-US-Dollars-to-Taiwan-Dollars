@@ -2,6 +2,7 @@
 import tkinter as tk                                          # 在Python 3.x 匯入該tkinter 函式庫
 from PIL import ImageTk, Image                                # 匯入 圖片 函示庫
 #新增文件
+#修改文字
 #建立視窗
 win = tk.Tk()                                                 # 步驟2：建立GUI 應用程式的主視窗
 win.wm_title("0714HW-01-exchangeRate")                        # 視窗 上的標題
