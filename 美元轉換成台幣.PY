@@ -1,37 +1,3 @@
-print('==================================')
-"""
-=====第一題：匯率轉換=====
-美金：   Entry
-台幣：
-Button
-Exchange Rate：29.89
-提示：
-str1=”12.5”              
-x=float(str1)*10              # 字串轉浮點數
-y=str(x)                      # 浮點數轉字串
-"""
-
-print("=====第一題：匯率轉換=====")
-
-"""
-def exchangeRateUSDToTWD():                                 # 此種寫法 會無法把輸入的數字和 視窗輸入框的數字做連結                                                     
-    n=float(input("美金:"))                                  # 思考邏輯-幾個對話框 幾個label 幾個要轉換的程序  串聯一起
-    n1=str(n*29.94)
-
-    return n1
-
-#print("美金轉台幣為:",exchangeRateUSDToTWD())
-
-def exchangeRateTWDToUSD():
-
-    x=float(input("台幣:"))
-    x1=str(x*0.033)
-
-    return x1
-
-#print("台幣轉美金為:",exchangeRateTWDToUSD())
-
-"""
 
 import tkinter as tk                                          # 在Python 3.x 匯入該tkinter 函式庫
 from PIL import ImageTk, Image                                # 匯入 圖片 函示庫
